@@ -4,7 +4,7 @@ Hyprland Darksouls themed Dotfiles
 ## Installation
 
 ```bash
-git clone https://github.com/darksouls-dotfiles/dotfiles.git
+git clone https://github.com/drewliusRT/dotfiles
 cd dotfiles
 chmod +x setup.sh
 ./setup.sh
