@@ -1,0 +1,134 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(10, 10, 10, 0.9);
+    color: #ffffff;
+}
+
+#workspaces {
+    background: #0a0a0a;
+    margin: 5px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+#workspaces button.active {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background: #2a2a2a;
+    color: #ffffff;
+}
+
+#custom-launcher {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#custom-power {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#clock {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#battery {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#battery.charging {
+    color: #ffffff;
+}
+
+#battery.warning:not(.charging) {
+    background: #2a2a2a;
+    color: #ffffff;
+}
+
+#network {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#pulseaudio {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#tray {
+    background: #0a0a0a;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#cpu {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#memory {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+#disk {
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+} 

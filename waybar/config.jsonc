@@ -1,0 +1,83 @@
+{
+    "layer": "top",
+    "modules-left": ["custom/launcher", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "memory", "disk", "network", "pulseaudio", "battery", "tray", "custom/power"],
+    
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "婢",
+        "format-source": "",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": "直 {essid}",
+        "format-ethernet": " {ipaddr}",
+        "format-disconnected": "睊",
+        "tooltip": false
+    },
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "format-charging": " {capacity}%",
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "tooltip": false
+    },
+    "clock": {
+        "format": " {:%I:%M %p}",
+        "format-alt": " {:%Y-%m-%d}",
+        "tooltip": false
+    },
+    "cpu": {
+        "format": "󰻠 {usage}%",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        },
+        "interval": 1,
+        "tooltip": false
+    },
+    "memory": {
+        "format": "﬙ {used:0.1f}G/{total:0.1f}G ({percentage}%)",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        },
+        "interval": 1,
+        "tooltip": false
+    },
+    "disk": {
+        "format": "󰋊 {free} free",
+        "interval": 30,
+        "tooltip": false
+    },
+    "custom/launcher": {
+        "format": "",
+        "on-click": "rofi -show drun",
+        "tooltip": false
+    },
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "bash ~/.config/rofi/powermenu.sh",
+        "tooltip": false
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    }
+}
